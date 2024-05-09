@@ -1,0 +1,7 @@
+AES Encryption and Decryption
+This repository contains Python code for AES (Advanced Encryption Standard) encryption and decryption. AES is a symmetric encryption algorithm commonly used to secure sensitive data. This code provides functions to encrypt and decrypt data using AES with various key lengths.
+
+Installation
+Clone this repository to your local machine:
+Navigate to project directory:
+Ensure you have python 3 installed
