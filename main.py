@@ -272,19 +272,15 @@ if __name__ == "__main__":
 
     assert (ciphertext_3 == expected_ciphertext_3)
 
-    # Test decryption for the first ciphertext
     plaintext_decrypted = aes_decryption(expected_ciphertext, key)
     assert (plaintext_decrypted == plaintext)
 
-    # Test decryption for the second ciphertext
     plaintext_decrypted_2 = aes_decryption(expected_ciphertext_2, key_2)
     assert (plaintext_decrypted_2 == plaintext)
 
-    # Test decryption for the third ciphertext
     plaintext_decrypted_3 = aes_decryption(expected_ciphertext_3, key_3)
     assert (plaintext_decrypted_3 == plaintext)
 
-    # After all test cases, print the results
     print("Test Cases:")
     print("------------")
     print("Plaintext:", plaintext)
